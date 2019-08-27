@@ -34,7 +34,7 @@ I added a plus symbol to emphasize the difference between the original dataset a
 
 Because of a) the complicated and unstable optimization process b) fast-developing frameworks c) data dependency, the reproduction problem is one of bad reputations of learning-based methods. For a proposed learning-based model, not only the algorithms described in paper, but also its entire reproduction stack as well as the datasets should be taken notice of.
 
-![ML-stack](/assets/images/posts/ML-Stack.png)
+![ML-stack](/~jclee/assets/images/posts/ML-Stack.png)
 
 Thanks to container technology and Python environment management tools, namely Docker and `virtualenv` etc, we've got much more control on the environment where our codes run. I prepared two `Dockerfile`s, one of which is for development and another for production (release). Upon docker images, a virtual env will be created for each project. A lot of tools is useful for environment management in Python, including `conda-env`, `pyenv`, `peotry`, `pipenv`, or just a `requirements.txt` file.
 
